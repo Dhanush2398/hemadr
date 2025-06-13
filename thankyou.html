@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thankyou</title>
+    <link rel="shortcut icon" href="/assets/img/logos/febicons.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      text-align: center;
+      padding: 40px 0;
+      background: #ebf0f5;
+    }
+    h1 {
+      color: #554bb0;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #404f5e;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size: 20px;
+      margin: 0;
+    }
+    i {
+      color: #6676bc;
+      font-size: 100px;
+      line-height: 200px;
+      margin-left: -15px;
+    }
+    .card {
+      background: white;
+      padding: 60px;
+      border-radius: 4px;
+      box-shadow: 0 2px 3px #c8d0d8;
+      display: inline-block;
+      margin: 0 auto;
+    }
+    /* Arrow Styling */
+    .backArrow {
+      font-size: 25px;
+      line-height: 25px;
+
+      width: 1em;
+      height: 1em;
+      padding: 6px;
+
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      transform: rotate(180deg);
+
+      color: #6667bc;
+      border: 2px solid #6673bc;
+      border-radius: 50%;
+
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+    }
+    .backArrow:hover {
+      color: #4b55b0;
+    }
+    .backArrow:active {
+      position: relative;
+      right: 2px;
+    }
+
+    .container {
+      padding-top: 2em;
+      margin: auto 49%;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div
+        style="
+          border-radius: 200px;
+          height: 200px;
+          width: 200px;
+          background: #f5f5fa;
+          margin: 0 auto;
+        "
+      >
+        <i class="checkmark">✓</i>
+      </div>
+      <h1>Success</h1>
+      <p>
+        We received your request;<br />
+        we'll be in touch shortly!
+      </p>
+    </div>
+
+    <div class="container">
+      <a href="/">
+        <div title="Back to Home" class="backArrow">&#10140;</div></a
+      >
+    </div>
+
+    <script>
+      window.onload = function () {
+        document.addEventListener(
+          "contextmenu",
+          function (e) {
+            e.preventDefault();
+          },
+          false
+        );
+        document.addEventListener(
+          "keydown",
+          function (e) {
+            //document.onkeydown = function(e) {
+            // "F12" key
+            if (event.keyCode == 123) {
+              disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+              disabledEvent(e);
+            }
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+              disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+              disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (
+              e.keyCode == 83 &&
+              (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)
+            ) {
+              disabledEvent(e);
+            }
+          },
+          false
+        );
+        function disabledEvent(e) {
+          if (e.stopPropagation) {
+            e.stopPropagation();
+          } else if (window.event) {
+            window.event.cancelBubble = true;
+          }
+          e.preventDefault();
+          return false;
+        }
+      };
+    </script>
+  </body>
+</html>

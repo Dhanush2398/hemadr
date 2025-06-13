@@ -1,0 +1,460 @@
+@media (max-width: 768px) {
+  .service-p {
+    font-size: 48px;
+  }
+  .hero-section h2 {
+    /* font-size: 22px; */
+  }
+  .transforming-s p {
+    font-size: 16px;
+  }
+  .transforming-s h1 {
+    font-size: 20px;
+  }
+  .transforming-s h3 {
+    font-size: 18px;
+  }
+  .delivered-imgs img {
+    height: 28px;
+    width: 28px;
+  }
+  .delivered-text {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .experience-img img {
+    height: 142px;
+    width: 182px;
+  }
+  .arow-btn {
+    height: 24px;
+    width: 24px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .explore {
+    margin-left: 32px;
+    /* float: right; */
+  }
+  .explore-btn {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .new-users {
+    height: 166px;
+    width: 240px;
+
+    padding: 22px 16px;
+  }
+  .new-users h3 {
+    font-size: 12px;
+  }
+  .new-users h1 {
+    font-weight: 500;
+  }
+  .new-users h4 {
+    font-size: 14px;
+  }
+  .new-users a {
+    padding: 8px 20px;
+  }
+  .virtual h1 {
+    font-weight: 800;
+  }
+  .virtual h2 {
+    color: #1f246d;
+    font-weight: 700;
+    padding-left: 8px;
+  }
+  .virtual p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .virtual a {
+    padding: 8px 19px;
+  }
+  /* //////////////aboutus//////////// */
+  .aboutus {
+    padding: 28px;
+  }
+  .aboutus nav {
+    padding: 18px;
+  }
+  .aboutus-h2 h2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 18px;
+  }
+  .aboutus-text h2 span {
+    font-weight: 400;
+    font-size: 26px;
+    padding-left: 48px;
+  }
+  .aboutus-text p {
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 48px;
+  }
+  .clefsflex {
+    display: block;
+  }
+
+  .virtual-con {
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .virtual-con h4 span {
+    padding: 12px 14px;
+  }
+  .virtual-con h2 {
+    /* padding-top: 32px; */
+    font-size: 24px;
+    line-height: 1;
+  }
+  .virtual-con p {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .cll-img img {
+    width: 100%;
+    height: 50%;
+    /* position: relative;
+    overflow: hidden; */
+  }
+  .chefs {
+    padding: 0px 24px;
+  }
+  .chefs .chef-member .member-info {
+    padding: 8px 12px 18px 12px;
+  }
+
+  .chefs .chef-member .member-info h4 {
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+
+  .chefs .chef-member .member-info span {
+    font-size: 11px;
+  }
+
+  .chefs .chef-member .member-info p {
+    font-size: 12px;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  .fooder-logo h1 {
+    font-size: 70px;
+    letter-spacing: 4px;
+  }
+
+  .aboutusnav {
+    display: block;
+  }
+  #hero {
+    margin: 32px 0;
+  }
+  .virtual-con {
+    padding: 62px 12px;
+  }
+  #hero {
+    width: 100%;
+    height: 50vh;
+  }
+  #hero h2 {
+    font-size: 14px;
+  }
+  #hero h1 {
+    margin: 20;
+
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .fooder-logo h1 {
+    font-size: 24px;
+    letter-spacing: 8px;
+  }
+  .experienc-xl {
+    margin-right: 0;
+    margin-bottom: 18px;
+  }
+  .header {
+    padding: 22px 22px;
+  }
+  .hero-section {
+    padding: 0 16px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+  .menu-block .bi-whatsapp {
+    font-size: 20px;
+  }
+  .menu {
+    padding: 5px 15px;
+  }
+  .service-p {
+    font-size: 22px;
+  }
+  .hero-section h2 {
+    font-size: 14px;
+  }
+  .transforming-s p {
+    font-size: 8px;
+  }
+  .transforming-s h1 {
+    font-size: 14px;
+  }
+  .transforming-s h3 {
+    font-size: 10px;
+  }
+  .delivered-imgs img {
+    height: 20px;
+    width: 20px;
+  }
+  .delivered-text {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .experience-img img {
+    height: 182px;
+    width: 182px;
+  }
+  .arow-btn {
+    height: 24px;
+    width: 24px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .explore {
+    margin-left: 4px;
+    /* float: right; */
+  }
+  .explore-btn {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+  .new-users {
+    height: 116px;
+    width: 220px;
+
+    /* padding: 10px 12px; */
+  }
+  .new-users h3 {
+    font-size: 8px;
+  }
+  .new-users h1 {
+    font-weight: 400;
+  }
+  .new-users h4 {
+    font-size: 9px;
+  }
+  .new-users a {
+    padding: 6px 16px;
+  }
+  .virtual h1 {
+    font-weight: 800;
+  }
+  .virtual h2 {
+    color: #1f246d;
+    font-weight: 700;
+    padding-left: 8px;
+  }
+  .virtual p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .virtual a {
+    padding: 8px 19px;
+  }
+  .testmonial {
+    display: block;
+  }
+  div.experience {
+    margin: 32px;
+  }
+  .aboutus {
+    padding: 0px;
+  }
+  .aboutus-text h2 span {
+    font-weight: 400;
+    font-size: 28px;
+    padding-left: 0px;
+  }
+  .aboutus-text p {
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 0px;
+  }
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar > ul > li {
+  white-space: nowrap;
+  /* padding: 10px 0 10px 28px; */
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e7ecee;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+/* .navbar > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #106eea;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+} */
+
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  /* color: #106eea; */
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  /* left: 28px; */
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #000000d2;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+
+.navbar .dropdown ul li {
+  /* min-width: 200px; */
+}
+
+.navbar .dropdown ul a {
+  padding: 20px 20px;
+  font-weight: 400;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+  padding: 18px 42px;
+}
+
+/* .navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+  color: #106eea;
+} */
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+.whatsapp-icon {
+  position: fixed;
+
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #2ab33f;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.whatsapp-icon i {
+  font-size: 22px;
+  color: #fff;
+  line-height: 0;
+}
+
+.whatsapp-icon:hover {
+  background: #04810e;
+  color: #fff;
+}
