@@ -716,7 +716,7 @@ h6 {
   margin-top: 28px;
   width: 100%;
   height: 85vh;
-  background: url("/assets/img/banner.png") center;
+  background: url("/assets/img/banner2.png") center;
   background-position: right 30% bottom 50%;
   background-size: cover;
   margin-bottom: -100px;
@@ -739,7 +739,7 @@ h6 {
 #hero h2 {
   color: #111416;
   /* margin: 10px 0 0 0; */
-  font-size: 18px;
+  font-size: 38px;
   margin-left: 358px;
 }
 
@@ -790,9 +790,8 @@ h6 {
   }
 
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    font-size: 28px !important;
+    line-height: 34px;
     margin-left: 62px;
   }
 }
@@ -807,12 +806,12 @@ h6 {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/bgimg.jpg") no-repeat;
+  background: url("../img//banner2.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
-
+/*
 .testimonials::before {
   content: "";
   position: absolute;
@@ -820,8 +819,8 @@ h6 {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
+  background: rgba(0, 0, 0, 0.4);
+}*/
 
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -848,7 +847,7 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #071EEE;
 }
 
 .testimonials .testimonial-item h4 {
@@ -859,7 +858,7 @@ h6 {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.4);
+  color: #E03A3C;
   font-size: 26px;
 }
 
@@ -879,7 +878,7 @@ h6 {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color: #eee;
+  color: #000;
 }
 
 .testimonials .swiper-pagination {
@@ -890,7 +889,7 @@ h6 {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #E03A3C;
   opacity: 1;
 }
 
