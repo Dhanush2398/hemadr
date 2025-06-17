@@ -222,9 +222,13 @@ h6 {
 .new-users {
   background-color: #071eee;
   height: 176px;
-  width: 260px;
+  width: 360px;
   border-radius: 19px;
   padding: 24px 18px;
+}
+.expertise-links  {
+position: relative;
+bottom: 60px;
 }
 .new-users h3 {
   margin-bottom: 0;
@@ -243,6 +247,19 @@ h6 {
   color: #fff;
   border: 1px solid #fff;
 }
+ .expertise-links a{
+   margin-bottom: 5px;
+  }
+@media (max-width: 576px) {
+  .expertise-links a {
+    padding: 4px 12px;
+    font-size: 8px;
+  }
+  .expertise-links a{
+   margin-bottom: 5px;
+  }
+}
+
 .experienc-xl {
   margin-right: 18px;
 }
@@ -931,8 +948,8 @@ h6 {
 .why-us .content h2 {
   font-weight: 400;
   font-size: 12px;
-  margin-bottom: 30px;
-  margin-left: 148px;
+  margin-bottom: 10px;
+  
 }
 .why-us .content p {
   margin-bottom: 40px;
