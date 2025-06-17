@@ -756,7 +756,7 @@ bottom: 60px;
 #hero h2 {
   color: #111416;
   /* margin: 10px 0 0 0; */
-  font-size: 38px;
+  font-size: 28px;
   margin-left: 358px;
 }
 
@@ -807,7 +807,7 @@ bottom: 60px;
   }
 
   #hero h2 {
-    font-size: 28px !important;
+    font-size: 14px !important;
     line-height: 34px;
     margin-left: 62px;
   }
@@ -1330,10 +1330,31 @@ bottom: 60px;
     color: #fff;
     border-color: transparent;
 }
-
+@media (max-width: 320px) {
+  .Consultation .btn-get-started {
+  left: 100px;
+  bottom: 70px;
+  }
+}
 .Consultation .btn-get-started:hover {
   background-color: #219631; 
   color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
+}
+
+.consultation .consultation-title{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2AB33F;
+  margin-bottom: 5px;
+}
+
+.consultation-info strong {
+  color: #E03A3C;
+  font-size: 20px;
+}
+.consultation .consultation-info {
+   font-size: 0.95rem !important;
+  color: #333;
 }
