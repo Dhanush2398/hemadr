@@ -14,8 +14,8 @@
     
     $subject ="website Message";
     $fromname ="website Message";
-    $fromemail = 'noreply@fromyourwebsite.com';  
-    $mailto = 'mithunbasavaraj057@gmail.com';  
+    $fromemail = '';  
+    $mailto = 'drhema1988@gmail.com';  
 
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));
@@ -50,3 +50,5 @@
         echo "mail send ... ERROR!";
         print_r( error_get_last() );
     }
+
+    
